@@ -1,0 +1,120 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* ======typo====== */
+body {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.3125rem;
+}
+
+h1,
+h2 {
+	font-weight: 300;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 3.75rem;
+}
+
+h2 {
+	font-size: 2.625rem;
+	border-top: #c4c4c4 1px solid;
+	border-bottom: #c4c4c4 1px solid;
+	padding: 1.5625rem;
+}
+
+h3 {
+	font-size: 2.25rem;
+	margin-bottom: 0;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.small {
+	margin-top: 0.3125rem;
+	font-size: 1rem;
+}
+
+span {
+	color: #99d930;
+	font-weight: 900;
+}
+
+.extra-h1,
+.extra-h2 {
+	display: block;
+}
+
+.extra-h1 {
+	font-size: 5rem;
+}
+
+.extra-h2 {
+	font-size: 3.75rem;
+}
+
+/* ====inline-el====== */
+img {
+	width: 15rem;
+	height: 15rem;
+	object-fit: cover;
+	border: white 0.575rem solid;
+	border-radius: 250px;
+}
+
+.link {
+	color: #99d930;
+	font-weight: 900;
+}
+
+.link:hover,
+.link:focus {
+	color: #fff;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #99d930;
+	padding: 0.625rem 1.5625rem;
+	text-decoration: 0;
+	font-weight: 900;
+	color: #131313;
+	margin-top: 1.875rem;
+}
+
+.btn:hover,
+.btn:focus {
+	background-color: #252525;
+	color: #fff;
+}
+
+.btn-d:hover,
+.btn-d:focus {
+	background-color: #fff;
+	color: #252525;
+}
+
+/* =======layout========= */
+.container {
+	width: 570px;
+	margin-inline: auto;
+}
+
+.header,
+.main,
+.footer {
+	padding: 100px 0;
+}
+
+.header,
+.footer {
+	background-color: #252525;
+	color: #fff;
+}
